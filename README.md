@@ -1,4 +1,4 @@
-# Kannon 💥  oh yeah
+# Kannon 💥
 
 [![CI](https://github.com/gyozatech/kannon/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/gyozatech/kannon/actions/workflows/ci.yaml)
 
