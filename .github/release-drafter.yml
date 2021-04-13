@@ -45,4 +45,4 @@ version-resolver:
   patch:
     labels:
       - version/patch
-commitish: master
+filter-by-commitish: true
