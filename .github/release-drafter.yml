@@ -1,18 +1,18 @@
 ---
 autolabeler:
-  - body:
+  - title:
       - /💥/
     label: type/breaking
-  - body:
+  - title:
       - /✨/
     label: type/feature
-  - body:
+  - title:
       - /🐛/
     label: type/bugfix
-  - body:
+  - title:
       - /📖/
     label: type/doc
-  - body:
+  - title:
       - /🛠/
     label: type/other
 categories:
