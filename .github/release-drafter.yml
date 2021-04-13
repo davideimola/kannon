@@ -20,7 +20,7 @@ categories:
     title: "💥 Breaking Changes"
   - label: type/feature
     title: "✨ Features"
-  - label: type/bug
+  - label: type/bugfix
     title: "🐛 Bug Fixes"
   - label: type/doc
     title: "📖 Documentation"
@@ -45,3 +45,4 @@ version-resolver:
   patch:
     labels:
       - version/patch
+commitish: master
