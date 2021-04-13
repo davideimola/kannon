@@ -10,14 +10,6 @@ A Cloud Native SMTP mail sender
 
 Tested on kubernello
 
-## TODO
-
-- Add GUI and User in React
-- Manage Statistics
-- Manage Templates
-- Enable Templating
-- Enable multiple node seding
-
 ## Server Configuration
 
 The SMTP server need to be configured in order to work properly.
