@@ -1,0 +1,46 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+template: |
+  # What's Changed
+
+  $CHANGES
+categories:
+  - title: '💥 Breaking Changes'
+    label: 'type/breaking'
+  - title: '✨ Features'
+    label: 'type/feature'
+  - title: '🐛 Bug Fixes'
+    label: 'type/bug'
+  - title: '📖 Documentation'
+    label: 'type/doc'
+  - title: '🛠 Other'️
+    label: 'type/other'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+version-resolver:
+  major:
+    labels:
+      - 'version/major'
+  minor:
+    labels:
+      - 'version/minor'
+  patch:
+    labels:
+      - 'version/patch'
+autolabeler:
+  - label: 'type/breaking'
+    body:
+      - '/💥/'
+  - label: 'type/feature'
+    body:
+      - '/✨/'
+  - label: 'type/bugfix'
+    body:
+      - '/🐛/'
+  - label: 'type/doc'
+    body:
+      - '/📖/'
+  - label: 'type/other'
+    title:
+      - '/🛠/'️
+exclude-labels:
+  - 'skip-changelog'
