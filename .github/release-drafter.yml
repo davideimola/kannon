@@ -40,7 +40,7 @@ autolabeler:
     body:
       - '/📖/'
   - label: 'type/other'
-    title:
+    body:
       - '/🛠/'️
 exclude-labels:
   - 'skip-changelog'
